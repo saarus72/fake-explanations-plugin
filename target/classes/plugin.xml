@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="FakeExplanation"
+         point="org.protege.editor.owl.explanation">
+      <name
+            value="Fake Explanations Service">
+      </name>
+      <class
+            value="explanation.example.FakeExplanationService">
+      </class>
+   </extension>
+
+</plugin>

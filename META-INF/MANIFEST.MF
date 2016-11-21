@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1478875956169
+Build-Jdk: 1.8.0_102
+Built-By: Saa
+Bundle-ManifestVersion: 2
+Bundle-Name: fake-explanations-plugin
+Bundle-SymbolicName: fake-explanations-plugin;singleton:=true
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=!provided;scope=compile|runtime;inline=false
+Embed-Directory: target/dependency
+Embed-StripGroup: true
+Embed-Transitive: true
+Implementation-Version: 0.0.1-SNAPSHOT.2016-11-11T14:52:27Z
+Import-Package: org.protege.editor.owl.ui.explanation;version="[5.1,6)",
+ org.semanticweb.owlapi.model;version="[4.2,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
